@@ -27,4 +27,4 @@ test('Успешный логин', async({page}) => {
    await checkoutStepTwoPage.finishCheckout();
    const completionMessage = await checkoutCompletePage.getCompletionMessage();
    expect(completionMessage).toBe('Thank you for your order!'); 
-   }   )
+   })
