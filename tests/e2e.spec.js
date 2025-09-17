@@ -1,10 +1,10 @@
 import { test, expect } from '@playwright/test';
-import {LoginPage} from './pages/login.page';
-import { InventoryPage } from './pages/InventoryPage';
-import { CartPage } from './pages/cartPage';
-import { CheckoutStepOnePage } from './pages/checkoutStepOnePage';
-import { CheckoutStepTwoPage } from './pages/checkoutStepTwoPage';
-import { CheckoutCompletePage } from './pages/checkoutCompletePage';
+import {LoginPage} from '../pages/login.page';
+import { InventoryPage } from '../pages/InventoryPage';
+import { CartPage } from '../pages/cartPage';
+import { CheckoutStepOnePage } from '../pages/checkoutStepOnePage';
+import { CheckoutStepTwoPage } from '../pages/checkoutStepTwoPage';
+import { CheckoutCompletePage } from '../pages/checkoutCompletePage';
 
 test('Успешный логин', async({page}) => {
    const loginPage = new LoginPage(page); 
