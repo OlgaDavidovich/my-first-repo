@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "tests:ui": "playwright test --grep @ui", 
+    "tests:api": "playwright test --grep @api", 
+    "tests:all": "playwright test" 
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",
